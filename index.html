@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Aprenda a criar um website com HTML" />
+    <meta name="author" content="Alexandre Éder" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explorando as Tags HTML: Criação de um Website Essencial</title>
+  </head>
+  <body>
+    <h1 id="formatacao-textual">Entendendo a Estrutura das Tags HTML</h1>
+    <p>
+      As tags HTML são elementos que compõem a estrutura de um website. Elas são
+      responsáveis por definir o conteúdo e a formatação de uma página web.
+    </p>
+    <hr />
+    <ul>
+      <li><a href="#formatacao-textual">Títulos e Textos</a></li>
+      <li><a href="#listas-estrutura">Listas e Estruturação</a></li>
+      <li><a href="#citacoes-destaques">Citações e Destaques</a></li>
+      <li><a href="#tags-experimentais">Tags Experimentais</a></li>
+      <li><a href="#referencias-adicionais">Referencias Adicionais</a></li>
+    </ul>
+
+    <h2 id="listas-estrutura">Títulos e Textos</h2>
+    <p>
+      Ao criar um título em HTML, você pode utilizar as tags
+      <strong><code>&lt;h1&gt;</code></strong> até
+      <strong><code>&lt;h6&gt;</code></strong
+      >. Sendo que <strong><code>&lt;h1&gt;</code></strong> é o título mais
+      importante e <strong><code>&lt;h6&gt;</code></strong> é o menos
+      importante. Ao utilizar essas tags, você estará definindo a hierarquia dos
+      títulos em sua página. Por exemplo: o título principal da página deve ser
+      definido com a tag <strong><code>&lt;h1&gt;</code></strong
+      >, enquanto os subtítulos podem ser definidos com as tags
+      <strong
+        ><code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>,
+        <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>
+        <span style="font-weight: normal">e</span>
+        <code>&lt;h6&gt;</code></strong
+      >.
+    </p>
+    <p>
+      Para criar um parágrafo, você pode utilizar a tag
+      <strong><code>&lt;p&gt;</code></strong
+      >. Se deseja dar destaque ao texto, pode utulizar a tag
+      <code><strong>&lt;strong&gt;</strong></code> para negrito e
+      <code><strong>&lt;mark&gt;</strong></code> para destacar. Por exemplo:
+      <strong>texto em negrito</strong> e <mark>texto destacado</mark>. Se
+      deseja criar um texto em italico pode utilizar a tag
+      <code><strong>&lt;em&gt;</strong></code> ou a tag
+      <code><strong>&lt;i&gt;</strong></code
+      >. Por exemplo: <em>texto em italico</em> e <i>texto em italico</i>.
+    </p>
+    <h2 id="listas-estrutura">Listas e Estruturação</h2>
+    <p>
+      Para criar uma lista não ordenada, você pode utilizar a tag
+      <strong><code>&lt;ul&gt;</code></strong> e para criar uma lista ordenada,
+      você pode utilizar a tag <strong><code>&lt;ol&gt;</code></strong
+      >. Dentro dessas tags, você pode utilizar a tag
+      <strong><code>&lt;li&gt;</code></strong> para criar os itens da lista.
+    </p>
+    <p>Por exemplo: todas as tags explicadas nas aulas.</p>
+    <strong><p>Lista Não Ordenada</p></strong>
+    <ul>
+      <li>&lt;h1&gt; até &lt;h6&gt;</li>
+      <li>&lt;p&gt;</li>
+      <li>&lt;mark&gt;</li>
+      <li>&lt;small&gt;</li>
+      <li>&lt;i&gt;</li>
+      <li>&lt;u&gt;</li>
+      <li>&lt;strong&gt;</li>
+    </ul>
+    <p>
+      As listas não ordenadas são utilizadas para criar listas de itens que não
+      possuem uma ordem específica.
+    </p>
+    <strong><p>Lista Ordenada</p></strong>
+    <ol>
+      <li>&lt;ol&gt;</li>
+      <li>&lt;ul&gt;</li>
+      <li>&lt;li&gt;</li>
+      <li>&lt;a&gt;</li>
+      <li>&lt;hr&gt;</li>
+      <li>&lt;sub&gt;</li>
+      <li>&lt;sup&gt;</li>
+      <li>&lt;blockquote&gt;</li>
+    </ol>
+    <p>
+      As listas ordenadas são utilizadas para criar listas de itens que possuem
+      uma ordem específica.
+    </p>
+    <strong><p>Hyperlinks</p></strong>
+    <p>
+      A tag <strong>&lt;a&gt;</strong> é utilizada para criar links em uma
+      página web. Por exemplo: <a href="https://www.google.com">Google</a>. Voê
+      pode utilizar o atributo <strong>href</strong> para definir o destino e o
+      atributo <strong>target</strong> _blank para definir se o link será aberto
+      em uma nova aba. Ou manter o padrão de abertura na mesma aba.
+    </p>
+    <h2 id="citacoes-destaques">Citações e Destaques</h2>
+    <p>
+      Para criar uma citação em HTML, você pode utilizar a tag
+      <strong><code>&lt;q&gt;</code></strong> para citações curtas e a tag
+      <strong><code>&lt;blockquote&gt;</code></strong> para citações longas.
+
+        <blockquote>
+            "A simplicidade é o último grau de sofisticação." - Leonardo da Vinci
+        </blockquote>
+    </p>
+    <p>
+        A tag <strong>&lt;abbr&gt;</strong> é utilizada para criar abreviações em uma página web. Por exemplo: <abbr title="Cascading Style Sheets">CSS</abbr>. Você pode utilizar o atributo <strong>title</strong> para definir o significado da abreviação.
+    </p>
+    <p>A tag &lt;del&gt; serve para riscar um texto. Por exemplo: <del>texto riscado</del>.</p>
+    <h2 id="tags-experimentais">Tags Experimentais</h2>
+    <p>
+      As tags experimentais são elementos que ainda não são suportados por
+      todos os navegadores. Elas são utilizadas para testar novas funcionalidades
+      e recursos do HTML. Por exemplo, a tag <strong><code>&lt;details&gt;</code></strong> é utilizada para criar um elemento de detalhes que pode ser expandido ou recolhido pelo usuário. Por exemplo: <details><summary>Detalhes</summary>Texto de exemplo.</details>.
+    </p>
+    <h2 id="referencias-adicionais">
+        Referências Adicionais
+    </h2>
+    <p>
+        Para saber mais sobre as tags HTML, você pode consultar a documentação oficial da W3C: <a href="https://www.w3.org/TR/html52/">HTML5</a>.
+        Ou consultar o site <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">MDN Web Docs</a>.
+    </p>
+    <a href="#formatacao-textual"><small>Voltar ao Início</small></a>
+    <hr />        
+    <footer>
+      <p>
+        Desenvolvido por <a href="
+        </a>">Alexandre Éder</a> &copy; 2024 - Todos os direitos reservados.</p>
+  </body>
+</html>
